@@ -4,28 +4,53 @@
 	font-size: 18px;
 	border-radius: 9px;
 	padding: 5px 19px;
-	background-color: #8BC34A;
+	background: #8BC34A;
 	color: #ffffff;
+	transition: 0.7s;
 }
-DownloadButton:hover{
+.DownloadButton:hover{
 	text-decoration: none;
-	background-color: #4CAF50;
+	background: #4CAF50;
 	color: #ffffff;
-	transition: 0.9s;
+	transform: scale(0.8);
 }
-.legendnevadie {
-	font-size: 26px;
-	font-family: Sans;
-	padding: 0;
-	margin: 0;
-}
+
 .image01 {
 	padding: 0;
 	margin: 0;
 }
-.field001 {
-	border: 1px solid black;
-	height: 260px;
-	width: 300px;
-	text-align: center;
+body {
+	background-image:url(backGround.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.content{
+	background-color: #1c2023;
+	width: 30%;
+	padding: 40px;
+	margin: 150px;
+	font-family: Calibri;
+	border-radius: 18px;
+	font-size: 12px;
+	color: white;
+}
+.DownText {
+	margin: 0;
+	padding: 0;
+}
+.Enterbutton{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 18px;
+	border-radius: 9px;
+	padding: 5px 19px;
+	background: #8BC34A;
+	color: #ffffff;
+	transition: 0.7s;
+}
+.Enterbutton:hover{
+	text-decoration: none;
+	background: #4CAF50;
+	color: #ffffff;
+	transform: scale(0.8);
 }
