@@ -62,3 +62,30 @@ body {
 	width: extend-to-zoom;
 	zoom: 1.0;
 }
+.division {
+	background-color: white;
+	width: 30%;
+	padding: 40px;
+	margin: 150px;
+	font-family: Calibri;
+	border-radius: 26px;
+	font-size: 15px;
+	color: black;
+}
+.return {
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 18px;
+	border-radius: 9px;
+	padding: 5px 19px;
+	background: #7CE3F5;
+	color: #ffffff;
+	transition: 0.7s;
+}
+.return:hover{
+	text-decoration: none;
+	background: #03a9f4;
+	color: #ffffff;
+	transform: scale(0.8);
+}
+}
