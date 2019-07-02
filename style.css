@@ -14,15 +14,29 @@
 	color: #ffffff;
 	transform: scale(0.8);
 }
-
+.white {
+	color: white;
+}
 .image01 {
 	padding: 0;
 	margin: 0;
+	max-width: 400px;
+	max-height: 100px;
+	width: 100%;
+	height: 25%;
 }
 body {
-	background-image:url(Background.jpg) ;
+	background-image:url("./Background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 .content{
 	background-color: #1c2023;
@@ -87,5 +101,4 @@ body {
 	background: #03a9f4;
 	color: #ffffff;
 	transform: scale(0.8);
-}
 }
