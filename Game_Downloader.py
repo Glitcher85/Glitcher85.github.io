@@ -29,7 +29,7 @@ def blank():
 def credits():
     print("""Before we start. 
         ##Credits##
-        Developers : Aadel
+        Developers : Hype Glitcher
                      Keshan
         Created using : Python
         Release Date : Wednesday 19th June, 2019
@@ -179,7 +179,7 @@ if __name__ == '__main__':
         elif Name in ("", " "):
             Name = "Unknown"
             print("*Oh, nice to meet you {}!".format(Name))
-        elif Name.lower() in ("aadel", "adel", "3adel", "keshan"):
+        elif Name.lower() in ("Hype", "Glitcher", "Hype Glitcher", "keshan"):
             print("*Oh, nice to meet you Creator of the game")
         else:
             print("*Oh, nice to meet you {}!".format(Name))
